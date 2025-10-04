@@ -1,0 +1,29 @@
+Database:
+
+baranggayportal_db
+
+tables:
+
+admin_login( id, user, pass)
+
+announcements(id, type, content, created_at)
+
+clients(id, name, password)
+
+completed_document_requests(id, original_id, client_id, document_id, request_date, status, completed_date)
+
+documents(id, name, description, fee)
+
+docurequests_db(id, client_id, document,id, status)
+
+facilities(id, name)
+
+facility_unavailability(id, facility_id, unavailable_date, unavailable_startTime, unavailable_endTime)
+
+facilreserve_db(facil_id, client_id, facility_id, reservation_date, startTime, endTime, purpose, status)
+
+feedback(id, client_id, client_name, type, subject, message, status, created_at, response, responded_at)
+
+filling_requirements(id, name, description, requirement_order, document_id, is_active, created_at, updated_at)
+
+unavailable_office(id, date)
