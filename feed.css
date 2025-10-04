@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.click {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
